@@ -1,4 +1,4 @@
-import json
+import json #importing json library
 from difflib import get_close_matches # A library to get similar words related to the users input
 
 data = json.load(open("original.json")) #importing data of Json file in the data variable
